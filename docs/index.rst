@@ -29,10 +29,14 @@ instructions or make more mistakes. The context window is the most important
 resource to manage. To see how a session fills up in practice, track token usage
 continuously.
 
+.. seealso::
+   :doc:`context`
+
 .. toctree::
    :hidden:
    :titlesonly:
    :maxdepth: 0
 
    setup
+   context
    jupyter
