@@ -41,4 +41,5 @@ continuously.
    context
    verify
    procedure
+   security
    jupyter
