@@ -40,4 +40,5 @@ continuously.
    setup
    context
    verify
+   procedure
    jupyter
