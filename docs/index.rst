@@ -28,3 +28,10 @@ When the context window becomes full, coding agents start to ‘forget’ previo
 instructions or make more mistakes. The context window is the most important
 resource to manage. To see how a session fills up in practice, track token usage
 continuously.
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 0
+
+   setup
