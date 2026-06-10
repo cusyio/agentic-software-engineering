@@ -35,3 +35,4 @@ continuously.
    :maxdepth: 0
 
    setup
+   jupyter
