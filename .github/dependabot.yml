@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2026 cusy GmbH
+#
+# SPDX-License-Identifier: BSD-3-Clause
+
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions:
+        patterns:
+          - "*"
