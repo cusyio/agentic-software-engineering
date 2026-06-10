@@ -39,4 +39,5 @@ continuously.
 
    setup
    context
+   verify
    jupyter
