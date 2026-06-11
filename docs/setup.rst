@@ -36,6 +36,8 @@ implementing the one that is likely to be the most effective:
    :language: md
    :lines: 6-7
 
+.. _uv:
+
 uv
 --
 
@@ -54,6 +56,8 @@ used instead in every session. One possible configuration for an
 .. seealso::
    * :ref:`python-basics:uv`
    * :doc:`Python4DataScience:productive/envs/uv/claude-cursor`
+
+.. _code-quality:
 
 Code quality and linting
 ------------------------
@@ -82,6 +86,8 @@ parameters and return types.
    :language: md
    :lines: 18-20
 
+.. _testing:
+
 Testing
 -------
 
@@ -94,6 +100,8 @@ Furthermore, :doc:`mocking <python-basics:test/mock>` and :ref:`python-basics:mo
    :language: md
    :lines: 22-30
 
+.. _documentation:
+
 Documentation
 -------------
 
@@ -105,6 +113,8 @@ functions and classes. We also typically write :doc:`doctests
    :caption: AGENTS.md
    :language: md
    :lines: 32-34
+
+.. _logging:
 
 Logging
 -------
