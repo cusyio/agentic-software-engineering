@@ -24,10 +24,6 @@ as `CLAUDE.md
 – `On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents
 <https://arxiv.org/abs/2601.20404>`_
 
-.. warning::
-   Anthropic recommends a maximum of 200 lines; see `My CLAUDE.md is too large
-   <https://code.claude.com/docs/en/memory#my-claude-md-is-too-large>`_.
-
 Cross-agent configuration
 -------------------------
 
@@ -154,3 +150,29 @@ output useful for troubleshooting.
    :caption: AGENTS.md
    :language: md
    :lines: 40-41
+
+Overloaded instructions for agents
+----------------------------------
+
+Context files tend to accumulate code overviews, architectural explanations,
+conventions and rules over time. Although each individual addition may be useful
+in its own right, this often results in an overload of instructions for the
+coding agent. The instructions become longer and sometimes contradict one
+another. Models then tend to pay less attention to such content. As the volume
+of instructions increases, so does the likelihood that important rules will be
+ignored. Anthropic therefore recommends 200 lines as the upper limit; see `My
+CLAUDE.md is too large
+<https://code.claude.com/docs/en/memory#my-claude-md-is-too-large>`_. You can
+also optimise instructions by adding highlights, such as *IMPORTANT* or *YOU
+MUST*, to improve compliance.
+
+We have observed that many teams also use coding agents to generate
+:file:`AGENTS.md` files. However, our experience suggests that handwritten
+versions appear to be more effective than those that have been generated. The
+most effective instructions seem to be those that are added selectively and
+reveal the context step by step, displaying only the instructions and
+capabilities an agent needs for its current task.
+
+.. seealso::
+   * `Provide specific context in your prompts
+     <https://code.claude.com/docs/de/best-practices#provide-specific-context-in-your-prompts>`_
