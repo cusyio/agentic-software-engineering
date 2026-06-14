@@ -2,13 +2,27 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-Setup
-=====
+Shared context instructions
+===========================
 
-You can configure Claude Code in the `CLAUDE.md
-<https://code.claude.com/docs/en/memory#how-claude-md-files-load>`_ file. Most
-other agents, however, use `AGENTS.md <https://agents.md/>`_. Generally
-speaking, though, you shouldn’t simply copy an existing configuration file;
+The more experience teams gain in working with coding agents, the less
+individual members of a software development team should need to create prompts
+from scratch. We therefore recommend curated, shared instructions for software
+teams with shared development resources.
+
+Initially, this approach focused on maintaining universal prompt libraries for
+common tasks. Now, such instructions can be managed collectively in files such
+as `CLAUDE.md
+<https://code.claude.com/docs/en/memory#how-claude-md-files-load>`_ or
+`AGENTS.md <https://agents.md/>`_ within the :doc:`Git
+<Python4DataScience:productive/git/index>` repository.
+
+     In particular, we show that the presence of a root :file:`AGENTS.md` file
+     is associated with reduced token usage and faster task completion on real
+     pull requests.
+
+– `On the Impact of AGENTS.md Files on the Efficiency of AI Coding Agents
+<https://arxiv.org/abs/2601.20404>`_
 
 .. warning::
    Anthropic recommends a maximum of 200 lines; see `My CLAUDE.md is too large
