@@ -43,3 +43,4 @@ continuously.
    procedure
    security
    jupyter
+   glossary
