@@ -11,8 +11,8 @@ Glossary
    Agent Scan
        `agent-scan <https://github.com/snyk/agent-scan>`_ is a security scanner
        for agent ecosystems that detects local components – including
-       :term:`MCP` servers and :doc:`skills <shared-instructions/skill>` – and
-       identifies risks such as prompt injection, `tool poisoning
+       :term:`MCP` servers and :doc:`skills <shared-instructions/skill/index>` –
+       and identifies risks such as prompt injection, `tool poisoning
        <https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks>`__,
        toxic workflows, hard-coded secrets and insecure handling of credentials.
        It closes an emerging gap in the transparency of the agent supply chain
@@ -85,8 +85,8 @@ Glossary
        investigating agent-based systems to identify insecure data paths and
        potential attack vectors. These risks are no longer limited to
        :term:`MCP` integrations; we have also observed similar patterns in
-       :doc:`skills <shared-instructions/skill>`, where a malicious actor can
-       package a seemingly useful function in such a way that it contains a
+       :doc:`skills <shared-instructions/skill/index>`, where a malicious actor
+       can package a seemingly useful function in such a way that it contains a
        hidden instruction to extract sensitive data. We strongly recommend that
        development teams working with agents conduct a toxic flow analysis and
        use tools such as :term:`Agent Scan` to identify insecure data paths

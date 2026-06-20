@@ -5,6 +5,9 @@
 Security
 ========
 
+.. seealso::
+   :doc:`Skill-Sicherheit <security>`
+
 Some coding agents allow you to set permissions within them, for example,
 automatically, using a whitelist or within a sandbox. However, these permissions
 remain vulnerable to the `Lethal Trifecta

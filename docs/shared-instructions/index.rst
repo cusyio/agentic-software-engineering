@@ -23,4 +23,4 @@ as `CLAUDE.md
    :maxdepth: 0
 
    agents
-   skill
+   skill/index
