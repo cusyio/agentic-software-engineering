@@ -18,7 +18,7 @@ exploration from execution.
    the change affects multiple files, or if you are unfamiliar with the code to
    be modified.
 
-The recommended workflow comprises four phases: 
+The recommended workflow comprises four phases:
 
 #. Explore
 

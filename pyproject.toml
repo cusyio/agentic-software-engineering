@@ -35,7 +35,7 @@ docs = [
   "sphinxext-opengraph",            # matplotlib is required for social cards
 ]
 
-[tool.uv.workspace]
-members = [
-    "pre-commit",
+[tool.uv]
+workspace.members = [
+  "pre-commit",
 ]
