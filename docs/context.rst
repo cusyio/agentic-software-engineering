@@ -65,15 +65,6 @@ Shift the work to hooks and skills
 
 Other techniques aim to further improve this ratio:
 
-`Prompt caching <https://platform.claude.com/docs/en/build-with-claude/prompt-caching>`_
-    pre-provides static instructions, which reduces costs and shortens the time
-    to the first token.
-Dynamic retrieval
-    goes beyond basic :abbr:`RAG (Retrieval-Augmented Generation)` by selecting
-    tools and loading only the necessary :term:`MCP` servers, thereby avoiding
-    unnecessary context expansion.
-`Context Graphs <https://trustgraph.ai/guides/key-concepts/context-graphs/>`_
-    model institutional reasoning – such as policies, exceptions and precedents
-    – as structured, queryable data. Context management techniques use stateful
-    compression and sub-agents to summarise intermediate steps in long-running
-    workflows.
+.. include:: glossary.rst
+   :start-after: start-context-strategies:
+   :end-before: end-context-strategies:

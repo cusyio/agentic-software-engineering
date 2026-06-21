@@ -91,3 +91,75 @@ Glossary
        development teams working with agents conduct a toxic flow analysis and
        use tools such as :term:`Agent Scan` to identify insecure data paths
        before they are exploited.
+
+   .. _start-context-strategies:
+
+   Prompt caching
+       pre-provides static instructions, which reduces costs and shortens the
+       time to the first token.
+
+       .. seealso::
+          `Prompt caching
+          <https://platform.claude.com/docs/en/build-with-claude/prompt-caching>`_
+
+   Dynamic retrieval
+       goes beyond basic :abbr:`RAG (Retrieval-Augmented Generation)` by
+       selecting tools and loading only the necessary :term:`MCP` servers,
+       thereby avoiding unnecessary context expansion.
+
+   Context Graphs
+       model institutional reasoning – such as policies, exceptions and
+       precedents – as structured, queryable data. Context management techniques
+       use stateful compression and sub-agents to summarise intermediate steps
+       in long-running workflows.
+
+       .. seealso::
+          `Context Graphs
+          <https://trustgraph.ai/guides/key-concepts/context-graphs/>`_
+
+   .. _end-context-strategies:
+
+   .. _start-containers:
+
+   Sprites
+       `Sprites <https://sprites.dev/>`_ is a stateful sandbox environment from
+       `Fly.io <https://fly.io/>`_, developed using `Firecracker
+       <https://firecracker-microvm.github.io>`_ microVMs for the isolated
+       execution of coding agents.
+
+       Whilst most sandboxes are short-lived – they are launched for a single
+       task and then disappear again – Sprites provides persistent Linux
+       environments with unlimited checkpointing and rollback capabilities. This
+       enables development teams to take a snapshot of the entire environment
+       state – including installed dependencies, runtime configuration and
+       changes to the file system – and perform a rollback if an agent goes off
+       the rails. This goes beyond what :doc:`Git
+       <Python4DataScience:productive/git/index>` alone can restore, as it
+       captures the system state that version control does not track.
+
+   Development Containers
+       `Development Containers <https://containers.dev>`_ provide a standardised
+       method for defining reproducible, containerised development environments
+       using the :file:`devcontainer.json` configuration file.
+
+       Originally developed to provide teams with consistent development
+       environments, dev containers have found a compelling new use case as
+       isolated execution environments for coding agents. Running an agent in a
+       dev container isolates it from the host’s file system, credentials and
+       network, allowing teams to grant the agent extensive permissions without
+       compromising the host machine.
+
+       The `open specification <https://containers.dev/implementors/spec/>`_ is
+       natively supported by `VS Code
+       <https://containers.dev/supporting#visual-studio-code>`_ and VS
+       Code-based tools such as Cursor.
+
+   `DevPod <https://devpod.sh>`_
+       extends Dev Container support via :abbr:`SSH  (Secure Shell)` to any
+       editor or terminal workflow. Dev Containers follow an
+       *ephemeral-by-default* approach, meaning that the container is recreated
+       from the configuration each time it is started, which provides a clean
+       security boundary, albeit at the cost of having to reinstall tools and
+       dependencies.
+
+   .. _end-containers:
