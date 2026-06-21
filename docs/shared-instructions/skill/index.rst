@@ -32,6 +32,49 @@ solve.
    * `Public repository for Agent Skills
      <https://github.com/anthropics/skills>`_
 
+Library Skills
+--------------
+
+`Library Skills <https://library-skills.io>`_ allows you to keep the skills for
+libraries that contain their own integrated AI functions synchronised with the
+latest version of the library. Libraries such as
+:doc:`Python4DataScience:data-processing/apis/fastapi/index` contain a
+:file:`.agents/skills/fastapi/SKILL.md` file, which can easily be adopted.
+
+In Python, you can use ``library-skills`` with ``uvx library-skills``. This will
+
+* check the dependencies you have defined in :file:`pyproject.toml` or
+  :file:`package.json`
+* check your project’s installation environment, for example, the :file:`.venv`
+  directory for Python and :file:`node_modules` for Node.js
+* identify the available skills for the libraries you have installed
+* display the installation status of these skills
+* ask which new skills you would like to install
+* ask about the installation target (:file:`.agents/skills` or
+  :file:`.claude/skills`)
+* create a relative symbolic link for each skill you select and each
+  destination, so that they can be managed with :doc:`Git
+  <Python4DataScience:productive/git/index>`
+
+pre-commit hook
+~~~~~~~~~~~~~~~
+
+You can run the same check using the
+:doc:`Python4DataScience:productive/git/advanced/hooks/pre-commit` to detect
+changes to the skills:
+
+.. code-block:: yaml
+
+   repos:
+     - repo: local
+       hooks:
+         - id: library-skills-check
+           name: library-skills check
+           entry: uvx library-skills --check
+           language: system
+           pass_filenames: false
+           files: ^(pyproject\.toml|uv\.lock|package\.json|package-lock\.json)$
+
 .. toctree::
    :hidden:
    :titlesonly:
