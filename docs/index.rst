@@ -32,17 +32,17 @@ continuously.
 .. seealso::
    :doc:`context`
 
-This tutorial is not intended to be an introduction to Python or programming in
-general; for that there is the :doc:`python-basics:index` tutorial.  Instead, it
-is intended to show the Python data science stack – libraries such as
-:doc:`/workspace/ipython/index`, :doc:`/workspace/numpy/index`,
-:doc:`/workspace/pandas/index`, and related tools – so that you can
-subsequently effectively analyse your data. We also offer the `Jupyter Tutorial
-<https://jupyter-tutorial.readthedocs.io/en/latest/index.html>`_ and the `PyViz
-Tutorial <https://pyviz-tutorial.readthedocs.io/de/latest/index.html>`_ as well
-as the instructions for `data visualisation
-<https://www.cusy.design/de/latest/viz/index.html>`_ from the `cusy Design
-System <https://www.cusy.design/de/latest/index.html>`_.
+This tutorial is intended as an introduction to agent-based software
+development. For an introduction to Python, see the :doc:`python-basics:index`
+tutorial; for the Python Data Science Stack, libraries such as :doc:`Python4DataScience:workspace/ipython/index`,
+:doc:`Python4DataScience:workspace/numpy/index`,
+:doc:`Python4DataScience:workspace/pandas/index`, and related tools, see the
+:doc:`Python4DataScience:index` tutorial. In addition, we also offer the
+`Jupyter tutorial <https://jupyter-tutorial.readthedocs.io/de/latest/>`_ and the
+`PyViz tutorial <https://pyviz-tutorial.readthedocs.io/de/latest/index.html>`_,
+as well as a guide to `data visualisation
+<https://www.cusy.design/de/latest/viz/index.html>`_ in the `cusy Design System
+<https://www.cusy.design/de/latest/index.html>`_.
 
 All tutorials serve as seminar documents for our harmonised training courses:
 
@@ -126,6 +126,6 @@ All tutorials serve as seminar documents for our harmonised training courses:
    shared-instructions/index
    feedback-loops
    procedure
-   security
+   security/index
    jupyter
    glossary

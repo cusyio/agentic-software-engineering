@@ -2,11 +2,8 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-Security
-========
-
-.. seealso::
-   :doc:`Skill-Sicherheit <security>`
+Sandboxing
+==========
 
 Some coding agents allow you to set permissions within them, for example,
 automatically, using a whitelist or within a sandbox. However, these permissions
@@ -29,7 +26,7 @@ There is now a wide range of sandboxing options available. In addition to the
 coding agents’ built-in sandbox modes, there are various options spanning the
 spectrum between short-lived and permanent solutions:
 
-.. include:: glossary.rst
+.. include:: ../glossary.rst
    :start-after: start-containers:
    :end-before: end-containers:
 
