@@ -3,7 +3,7 @@
 .. SPDX-License-Identifier: BSD-3-Clause
 
 ============================
-Agentic Software Development
+Agentic Software Engineering
 ============================
 
 .. image:: https://img.shields.io/github/contributors/cusyio/agentic-software-engineering.svg

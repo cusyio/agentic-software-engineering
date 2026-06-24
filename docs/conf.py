@@ -21,7 +21,7 @@ html_context = {}
 if os.environ.get("READTHEDOCS", "") == "True":
     html_context["READTHEDOCS"] = True
 
-project = "Agentic Software Development"
+project = "Agentic Software Engineering"
 author = "Veit Schiele"
 copyright = f"2026, {author}"
 

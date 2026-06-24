@@ -2,7 +2,7 @@
 ..
 .. SPDX-License-Identifier: BSD-3-Clause
 
-Agentic Software Development
+Agentic Software Engineering
 ============================
 
 Unlike a chatbot, agentic programming environments such as Claude Code or Cursor
