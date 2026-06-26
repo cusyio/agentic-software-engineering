@@ -24,3 +24,4 @@ as `CLAUDE.md
 
    agents
    skill/index
+   slash-commands
