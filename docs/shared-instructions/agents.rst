@@ -139,6 +139,8 @@ output useful for troubleshooting.
    :language: md
    :lines: 40-41
 
+.. _overloaded-agent-instructions:
+
 Overloaded instructions for agents
 ----------------------------------
 
