@@ -50,3 +50,10 @@ The recommended workflow comprises four phases:
 
    Ask the coding agent to make a commit with a meaningful message and to create
    a pull or merge request.
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+   :maxdepth: 0
+
+   spec-driven-development

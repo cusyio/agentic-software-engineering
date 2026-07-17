@@ -125,7 +125,7 @@ All tutorials serve as seminar documents for our harmonised training courses:
    context
    shared-instructions/index
    feedback-loops
-   procedure
+   procedure/index
    security/index
    jupyter
    glossary
