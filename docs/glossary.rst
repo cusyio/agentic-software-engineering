@@ -119,7 +119,7 @@ Glossary
 
    .. _end-context-strategies:
 
-   .. _start-containers:
+   .. _start-sandboxes:
 
    Sprites
        `Sprites <https://sprites.dev/>`_ is a stateful sandbox environment from
@@ -162,4 +162,4 @@ Glossary
        security boundary, albeit at the cost of having to reinstall tools and
        dependencies.
 
-   .. _end-containers:
+   .. _end-sandboxes:

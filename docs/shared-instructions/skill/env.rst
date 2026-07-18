@@ -16,4 +16,4 @@ advantages:
 * they are powerful
 * they are easy to create
 * and LLMs can be made available in :doc:`secure programming environments
-  <../../security/sandboxing>`
+  <../../security/sandboxing/index>`

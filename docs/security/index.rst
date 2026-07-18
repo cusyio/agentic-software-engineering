@@ -16,13 +16,16 @@ categories:
     incoming data for common jailbreak attempts, prompt injection or malicious
     code. Generated responses are also checked before being returned to ensure
     that the output is secure and compliant.
-:doc:`sandboxing`
+:doc:`sandboxing/index`
     protects your systems in the event that the guardrails are bypassed or fail.
     The coding agents are isolated to prevent malicious code from altering your
     environment or causing data to leak.
 
 .. seealso::
-   :doc:`Skill security <../shared-instructions/skill/security>`
+   * :doc:`Skill security <../shared-instructions/skill/security>`
+   * `Evasion Attacks on LLMs – A Checklist for LLM System Hardening
+     <https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/KI/Evasion_Attacks_on_LLMs-Checklist.html>`_
+     by the BSI - Federal Office for Information Security
 
 .. toctree::
    :hidden:
@@ -30,4 +33,4 @@ categories:
    :maxdepth: 0
 
    guardrails
-   sandboxing
+   sandboxing/index
