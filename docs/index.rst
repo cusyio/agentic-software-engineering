@@ -12,6 +12,28 @@ of writing code ourselves and asking the agentic programming environment to
 check it, we now describe what we want, and the agent researches, plans and
 implements it.
 
+As the use of coding agents increases, so too does the number of studies warning
+against becoming overconfident when dealing with LLM-generated code. Whilst
+there is ample evidence that these tools can accelerate development –
+particularly when creating prototypes and on greenfield projects – the studies
+show that `code quality <Python4DataScience:productive/qa/index>`_ can decline
+over time.
+
+GitClear’s 2024 study, `AI Copilot Code Quality
+<https://www.gitclear.com/ai_assistant_code_quality_2025_research>`_, found that
+code duplication and code churn had increased more than expected, whilst
+refactoring activity in commit histories had declined. A similar trend is
+evident in the Microsoft study `The Impact of Generative AI on Critical Thinking
+<https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/>`_:
+AI-driven confidence often comes at the expense of critical thinking.
+
+Speeding up one part of the workflow increases the pressure on the other parts.
+We found that the effective use of LLM agents requires a focus on `code quality
+<Python4DataScience:productive/qa/index>`_, and that established practices such
+as :doc:`python-basics:test/tdd` and :term:`static testing <Static test
+procedures>` are becoming increasingly important, particularly when integrated
+directly into coding workflows.
+
 This tutorial covers approaches that have proven effective within our teams and
 for data scientists who use coding agents across a wide variety of codebases and
 environments.
