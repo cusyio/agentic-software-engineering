@@ -9,8 +9,9 @@ Glossary
    :sorted:
 
    Agent Scan
-       `agent-scan <https://github.com/snyk/agent-scan>`_ is a security scanner
-       for agent ecosystems that detects local components – including
+   Snyk Agent Scan
+       `Snyk Agent Scan <https://github.com/snyk/agent-scan>`_ is a security
+       scanner for agent ecosystems that detects local components – including
        :term:`MCP` servers and :doc:`skills <shared-instructions/skill/index>` –
        and identifies risks such as prompt injection, `tool poisoning
        <https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks>`__,
