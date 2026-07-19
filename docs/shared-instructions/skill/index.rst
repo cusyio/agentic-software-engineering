@@ -60,8 +60,8 @@ pre-commit hook
 ~~~~~~~~~~~~~~~
 
 You can run the same check using the
-:doc:`Python4DataScience:productive/git/advanced/hooks/pre-commit` to detect
-changes to the skills:
+:doc:`Python4DataScience:productive/git/advanced/hooks/prek` to detect changes
+to the skills:
 
 .. code-block:: yaml
 
