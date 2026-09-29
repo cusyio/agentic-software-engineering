@@ -5,6 +5,17 @@
 Context Engineering
 ===================
 
+The context window of coding agents fills up quickly: a context window contains
+your entire conversation, including every message, every file that has been read
+in, and every command output. A single debugging session or the exploration of a
+codebase can generate and consume tens of thousands of tokens.
+
+This is important because LLM performance declines as context increases. When
+the context window becomes full, coding agents start to ‘forget’ previous
+instructions or make more mistakes. The context window is the most important
+resource to manage. To see how a session fills up in practice, monitor token
+usage continuously.
+
 Initially conceived as an optimisation tactic, Context Engineering has evolved
 into a fundamental architectural aspect of modern AI systems. Unlike Prompt
 Engineering, which focuses on phrasing, Context Engineering deliberately

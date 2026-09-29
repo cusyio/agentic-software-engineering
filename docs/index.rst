@@ -12,6 +12,15 @@ of writing code ourselves and asking the agentic programming environment to
 check it, we now describe what we want, and the agent researches, plans and
 implements it.
 
+    *“The more time I spend working with coding agents, the more convinced I am
+    that they make software engineering even harder.*
+
+    *We can do amazing things with them, but unlocking their full potential
+    requires extraordinary discipline and knowledge.”*
+
+– `Simon Willison, 24 September 2026
+<https://simonwillison.net/2026/Sep/24/harder/>`_
+
 As the use of coding agents increases, so too does the number of studies warning
 against becoming overconfident when dealing with LLM-generated code. Whilst
 there is ample evidence that these tools can accelerate development –
@@ -30,9 +39,20 @@ AI-driven confidence often comes at the expense of critical thinking.
 Speeding up one part of the workflow increases the pressure on the other parts.
 We found that the effective use of LLM agents requires a focus on `code quality
 <Python4DataScience:productive/qa/index>`_, and that established practices such
-as :doc:`python-basics:test/tdd` and :term:`static testing <Static test
-procedures>` are becoming increasingly important, particularly when integrated
-directly into coding workflows.
+as :doc:`test-driven development <python-basics:test/tdd>` and :term:`static
+testing <Static test procedures>` are becoming increasingly important,
+particularly when integrated directly into coding workflows.
+
+We humans remain responsible for what the software does and how it works, but we
+use different skills to create the software. This is therefore about *agentic
+software engineering* and not *vibe coding* – with vibe coding, people do not
+look at the code, whereas with agentic programming they continue to engage with
+the code and often examine it in detail.
+
+So what will programming work look like in the future? What skills will be
+required? At present, so-called *harness engineering* – which focuses on
+:doc:`context engineering <context>` and :term:`static testing <Static testing>`
+methods relating to LLMs – appears to be central.
 
 This tutorial covers approaches that have proven effective within our teams and
 for data scientists who use coding agents across a wide variety of codebases and
