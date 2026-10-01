@@ -89,9 +89,11 @@ parameters and return types.
 Testing
 -------
 
-Many of our projects use :doc:`python-basics:test/tdd` with
-:doc:`python-basics:test/pytest/index` and :doc:`python-basics:test/hypothesis`.
-Furthermore, :doc:`mocking <python-basics:test/mock>` and :ref:`python-basics:monkeypatch-fixture` should be avoided.
+Many of our projects use :doc:`python-basics:test/methods/tdd` with
+:doc:`python-basics:test/libs/pytest/index` and
+:doc:`python-basics:test/libs/hypothesis`. Furthermore, :doc:`mocking
+<python-basics:test/libs/mock/index>` and
+:ref:`python-basics:monkeypatch-fixture` should be avoided.
 
 .. literalinclude:: AGENTS.md
    :caption: AGENTS.md

@@ -9,10 +9,10 @@ As coding agents evolve from simple chat interfaces towards autonomous task
 execution, :doc:`context engineering <../../context>` has become a critical
 challenge. Agent Skills provide an open standard for modularising contexts by
 bundling instructions, executable scripts and associated resources such as
-:doc:`python-basics:test/tdd`. Whilst :doc:`../agents` is loaded at the start of
-every session, skills are only loaded on demand based on their descriptions,
-which reduces token consumption and mitigates issues such as context window
-exhaustion or agent instruction overload.
+:doc:`python-basics:test/methods/tdd`. Whilst :doc:`../agents` is loaded at the
+start of every session, skills are only loaded on demand based on their
+descriptions, which reduces token consumption and mitigates issues such as
+context window exhaustion or agent instruction overload.
 
 At the start of a session, coding agents can scan all available skill files and
 read a brief description from the Markdown file for each one. This is very

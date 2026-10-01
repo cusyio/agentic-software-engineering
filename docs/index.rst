@@ -39,9 +39,9 @@ AI-driven confidence often comes at the expense of critical thinking.
 Speeding up one part of the workflow increases the pressure on the other parts.
 We found that the effective use of LLM agents requires a focus on `code quality
 <Python4DataScience:productive/qa/index>`_, and that established practices such
-as :doc:`test-driven development <python-basics:test/tdd>` and :term:`static
-testing <Static test procedures>` are becoming increasingly important,
-particularly when integrated directly into coding workflows.
+as :doc:`test-driven development <python-basics:test/methods/tdd>` and
+:term:`static testing <Static test procedures>` are becoming increasingly
+important, particularly when integrated directly into coding workflows.
 
 We humans remain responsible for what the software does and how it works, but we
 use different skills to create the software. This is therefore about *agentic
@@ -51,8 +51,8 @@ the code and often examine it in detail.
 
 So what will programming work look like in the future? What skills will be
 required? At present, so-called *harness engineering* – which focuses on
-:doc:`context engineering <context>` and :term:`static testing <Static testing>`
-methods relating to LLMs – appears to be central.
+:doc:`context engineering <context>` and :term:`static testing <Static test
+procedures>` methods relating to LLMs – appears to be central.
 
 This tutorial covers approaches that have proven effective within our teams and
 for data scientists who use coding agents across a wide variety of codebases and
@@ -121,43 +121,47 @@ All tutorials serve as seminar documents for our harmonised training courses:
 +---------------+--------------------------------------------------------------+
 | 3 days        | `Versioned and reproducible storage of code and data`_       |
 +---------------+--------------------------------------------------------------+
+| 4 days        | `Applied AI with Python`_                                    |
++---------------+--------------------------------------------------------------+
 | Subscription  | `News from Python for data science`_                         |
 | of 2 hours    |                                                              |
 | per quarter   |                                                              |
 +---------------+--------------------------------------------------------------+
 
 .. _`Introduction to Python`:
-   https://cusy.io/en/our-training-courses/introduction-to-python
+   https://cusy.io/en/our-training-courses/introduction-to-python.html
 .. _`Advanced Python`:
-   https://cusy.io/en/our-training-courses/advanced-python
+   https://cusy.io/en/our-training-courses/advanced-python.html
 .. _`Design patterns in Python`:
-   https://cusy.io/en/our-training-courses/design-patterns-in-python
+   https://cusy.io/en/our-training-courses/design-patterns-in-python.html
 .. _`Efficient testing with Python`:
-   https://cusy.io/en/our-training-courses/efficient-testing-with-python
+   https://cusy.io/en/our-training-courses/efficient-testing-with-python.html
 .. _`Software documentation with Sphinx`:
-   https://cusy.io/en/our-training-courses/software-documentation-with-sphinx
+   https://cusy.io/en/our-training-courses/software-documentation-with-sphinx.html
 .. _`Technical writing`:
-   https://cusy.io/en/our-training-courses/technical-writing
+   https://cusy.io/en/our-training-courses/technical-writing.html
 .. _`Jupyter notebooks for efficient data science workflows`:
-   https://cusy.io/en/our-training-courses/jupyter-notebooks-for-efficient-data-science-workflows
+   https://cusy.io/en/our-training-courses/jupyter-notebooks-for-efficient-data-science-workflows.html
 .. _`Numerical calculations with NumPy`:
-   https://cusy.io/en/our-training-courses/numerical-calculations-with-numpy
+   https://cusy.io/en/our-training-courses/numerical-calculations-with-numpy.html
 .. _`Analysing data with pandas`:
-   https://cusy.io/en/our-training-courses/analysing-data-with-pandas
+   https://cusy.io/en/our-training-courses/analysing-data-with-pandas.html
 .. _`Read, write and provide data with Python`:
-   https://cusy.io/en/our-training-courses/read-write-and-provide-data-with-python
+   https://cusy.io/en/our-training-courses/read-write-and-provide-data-with-python.html
 .. _`Cleanse and validate data with Python`:
-   https://cusy.io/en/our-training-courses/cleanse-and-validate-data-with-python
+   https://cusy.io/en/our-training-courses/cleanse-and-validate-data-with-python.html
 .. _`Visualising data with Python`:
-   https://cusy.io/en/our-training-courses/visualising-data-with-python
+   https://cusy.io/en/our-training-courses/visualising-data-with-python.html
 .. _`Designing data visualisations`:
-   https://cusy.io/en/our-training-courses/designing-data-visualisations
+   https://cusy.io/en/our-training-courses/designing-data-visualisations.html
 .. _`Create dashboards`:
-   https://cusy.io/en/our-training-courses/create-dashboards
+   https://cusy.io/en/our-training-courses/create-dashboards.html
 .. _`Versioned and reproducible storage of code and data`:
-   https://cusy.io/en/our-training-courses/versioned-and-reproducible-storage-of-code-and-data
+   https://cusy.io/en/our-training-courses/versioned-and-reproducible-storage-of-code-and-data.html
+.. _`Applied AI with Python`:
+   https://cusy.io/en/our-training-courses/applied-ai-with-python.html
 .. _`News from Python for data science`:
-   https://cusy.io/en/our-training-courses/news-from-python-for-data-science
+   https://cusy.io/en/our-training-courses/news-from-python-for-data-science.html
 
 .. toctree::
    :hidden:

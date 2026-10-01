@@ -64,9 +64,9 @@ Example
 Review and Revise
 -----------------
 
-As with :doc:`test-driven development <python-basics:test/tdd>`, you should
-first review the results of your skill. This is the only way to ensure that your
-skill solves real problems rather than just imaginary ones:
+As with :doc:`test-driven development <python-basics:test/methods/tdd>`, you
+should first review the results of your skill. This is the only way to ensure
+that your skill solves real problems rather than just imaginary ones:
 
 #. Identify gaps
 
